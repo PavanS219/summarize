@@ -450,7 +450,7 @@ else:
     # Sidebar content
     st.sidebar.title("About This App")
     st.sidebar.info(
-        "This app uses LangChain and Mixtral-8x7B model from Groq API to provide customizable summaries "
+        "This app uses LangChain and llama-3.3-70b model from Groq API to provide customizable summaries "
         "of both YouTube videos and website content in multiple languages."
     )
     st.sidebar.title("How To Use:")
@@ -611,7 +611,7 @@ else:
 
     # Initialize LLM
     llm = ChatGroq(
-        model="mixtral-8x7b-32768",
+        model="llama-3.3-70b-versatile",
         groq_api_key=os.getenv("GROQ_API_KEY")
     )
 
