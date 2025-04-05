@@ -1,4 +1,4 @@
-bcrypt==3.2.0
+
 validators==0.34.0
 streamlit==1.40.0
 langchain==0.3.7
