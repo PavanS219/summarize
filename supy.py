@@ -355,7 +355,6 @@ st.sidebar.info(
     "This app uses LangChain and llama-3.3-70b model from Groq API to provide customizable summaries "
     "of both YouTube videos and website content in multiple languages."
 )
-st.sidebar.title("How To Use:")
 st.write("1. Enter any URL (YouTube video or website) you wish to summarize.")
 st.write("2. Select your preferred language and summary length.")
 st.write("3. Click Summarize to get a detailed summary.")
