@@ -1,6 +1,4 @@
 import os
-import sqlite3
-import bcrypt
 import validators
 import streamlit as st
 import time
@@ -28,8 +26,6 @@ import random
 import string
 import streamlit.components.v1 as components
 import hashlib
-
-
 # Set up logging for debugging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
